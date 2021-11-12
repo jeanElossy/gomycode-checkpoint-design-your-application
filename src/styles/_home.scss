@@ -9,11 +9,11 @@
                 padding: 8rem 0 0 5rem;
                 .success {
                     button {
-                        background: rgb(243, 97, 97);
+                        background: rgb(243, 9, 97);
                         border-radius: 20px;
                         border: none;
                         &:hover{
-                            background: rgb(243, 9, 97);
+                            background: rgb(243, 97, 97);
                         }
                     }
                 }
@@ -67,7 +67,8 @@
 
         .new {
             position: relative;
-
+            cursor: pointer;
+            
             &::after {
                 position: absolute;
                 content: "";

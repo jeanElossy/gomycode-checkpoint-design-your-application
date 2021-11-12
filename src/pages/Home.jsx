@@ -2,7 +2,7 @@ import React from 'react'
 import Header from "../components/Header";
 import { FaBabyCarriage } from "react-icons/fa";
 import Articles from '../components/Articles';
-
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
@@ -13,10 +13,10 @@ const Home = () => {
             <div className="text__image container-fluid bg-primary">
                 <div className="row">
                     <div className="text col-12 col-md-7 text-white">
-                        <h1>Bénéficiés de vos articles préférés <br /> en gros et en details</h1>
-                        <p className="mt-4">Achéter et faites vous livrer vos colis en Côte d'Ivoire, au Burkina Faso, au Libéria, et en Sierra Léonne </p>
+                        <h1>Bénéficiez de vos articles préférés <br /> en gros et en details</h1>
+                        <p className="mt-4 fs-6">Achéter et faites vous livrer vos colis en Côte d'Ivoire, au Burkina Faso, au Libéria, et en Sierra Léonne </p>
                         <div className="success mt-4">
-                            <button className="btn btn-success p-2">Achéter maintenant</button>
+                            <button className="btn btn-success p-3">Achéter maintenant</button>
                         </div>
                     </div>
                     <div className="image col-12 col-md-5">
@@ -33,7 +33,6 @@ const Home = () => {
                     className="icon--market"
                 />
             </div>
-
 
             <div className="produits container">
                 <div className="row gap-4">
@@ -65,6 +64,9 @@ const Home = () => {
             <Articles 
                 className="products"
             />
+
+
+            <Footer />
         </div>
     )
 }

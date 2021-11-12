@@ -54,7 +54,7 @@ const header = () => {
                         <hr className="ms-5" />
                     </div>
                     
-                <div className="articles d-flex justify-content-center gap-5 p-3">
+                <div className="articles d-flex justify-content-center gap-5 pt-3 pb-4">
                     <div>
                         <a href="/">
                             Categories
