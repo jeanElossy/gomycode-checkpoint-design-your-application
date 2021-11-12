@@ -98,11 +98,11 @@ const Articles = ( { className }) => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="choose col-12 col-md-2">
-                        <h1 className="h5 ms-4">Nouvel arrivage</h1>
-                        <h2 className="h5 ms-4">Top ventes</h2>
+                        <h1 className="h5 ms-4 text-primary new">Nouvel arrivage</h1>
+                        <h2 className="h5 ms-4 new mt-5">Top ventes</h2>
                     </div>
 
-                    <div className="product col-12 col-md-10 bg-light">
+                    <div className="product col-12 col-md-10 bg-light pb-5 mb-3">
                         <div className="row">
                             {
                                 data.map((item) => {
@@ -115,12 +115,22 @@ const Articles = ( { className }) => {
                                             </h1>
 
                                             <div className="mt-2">
-                                                <div>{item.count1} / unite</div>
-                                                <div>{item.count2} / a partie de 5 unites</div>
+                                                <div>
+                                                    <span className="fw-bold">
+                                                        {item.count1}
+                                                    </span> / unité
+                                                </div>
+                                                
+
+                                                <div>
+                                                    <span className="fw-bold">
+                                                        {item.count2}
+                                                    </span>  / à partie de 5 unités
+                                                </div>
                                             </div>
                                             
                                             <div className="d-flex justify-content-between gap-2 mt-3">
-                                                <button className="btn btn-primary">Acheter</button>
+                                                <button className="btn btn-primary">Achéter</button>
                                                 <button className="btn btn-outline-primary fw-bold">+</button>
                                             </div>
                                         </div>
@@ -128,6 +138,9 @@ const Articles = ( { className }) => {
                                 })
                             }
                             
+                        </div>
+                        <div className="voir-plus text-center mt-4">
+                            <button className="btn btn-outline-primary">Voir plus</button>
                         </div>
                     </div>
                 </div>

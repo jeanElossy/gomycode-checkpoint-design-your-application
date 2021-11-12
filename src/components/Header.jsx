@@ -42,7 +42,7 @@ const header = () => {
 
                                 <div className="button d-flex gap-3">
                                     <div className="connexion">
-                                        <button className="btn">Connexion</button>
+                                        <button className="btn btn-outline-primary">Connexion</button>
                                     </div>
                                     <div className="inscription">
                                         <button className="btn">Inscritpion</button>

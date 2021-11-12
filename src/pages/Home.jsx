@@ -13,10 +13,10 @@ const Home = () => {
             <div className="text__image container-fluid bg-primary">
                 <div className="row">
                     <div className="text col-12 col-md-7 text-white">
-                        <h1>Beneficies de vos articles preferes <br /> en gros et en details</h1>
-                        <p className="mt-4">Acheter et faites vous livrer vos colis en Cote d'Ivoire, au Burkina Faso, au Liberia, et en Sierra Leonne </p>
+                        <h1>Bénéficiés de vos articles préférés <br /> en gros et en details</h1>
+                        <p className="mt-4">Achéter et faites vous livrer vos colis en Côte d'Ivoire, au Burkina Faso, au Libéria, et en Sierra Léonne </p>
                         <div className="success mt-4">
-                            <button className="btn btn-success p-2">Acheter maintenant</button>
+                            <button className="btn btn-success p-2">Achéter maintenant</button>
                         </div>
                     </div>
                     <div className="image col-12 col-md-5">
@@ -27,7 +27,7 @@ const Home = () => {
 
             <div className="market">
                 <span>
-                    1
+                    0
                 </span>
                 <FaBabyCarriage
                     className="icon--market"
