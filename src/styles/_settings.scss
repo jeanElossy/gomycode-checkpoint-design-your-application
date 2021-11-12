@@ -1,0 +1,20 @@
+
+*, *::after, *::before{
+    outline: none;
+    box-sizing: border-box;
+}
+
+$colorBlue: blue;
+$colorBlack: #333;
+
+a{
+    text-decoration: none;
+    color: $colorBlack;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

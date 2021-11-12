@@ -1,0 +1,46 @@
+.home {
+    position: relative;
+
+    .text__image{
+
+        .row {
+
+            .text{
+                padding: 8rem 0 0 5rem;
+                .success {
+                    button {
+                        background: rgb(243, 97, 97);
+                        border-radius: 20px;
+                        border: none;
+                        &:hover{
+                            background: rgb(243, 9, 97);
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .market {
+        position: fixed;
+        width: 60px;
+        height: 50px;
+        background: $colorBlue;
+        bottom: 50%;
+        right: 0;
+        @include center;
+        border-radius: 15px 0 0 15px;
+        span {
+            color: white;
+        }
+    }
+
+    .produits {
+        margin-top: 20px;
+        .card{
+            border-radius: 10px;
+            height: 225px;
+        }
+    }
+}
