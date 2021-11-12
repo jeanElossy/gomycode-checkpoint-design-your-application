@@ -35,7 +35,7 @@ const Home = () => {
             </div>
 
             <div className="produits container">
-                <div className="row gap-4">
+                <div className="row justify-content-center gap-5">
                     <div className="col-12 col-md-4 card">
                         <div className="row">
                             <h6 className="col-md-5 p-3">Hommes</h6>
